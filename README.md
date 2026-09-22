@@ -16,6 +16,10 @@ No pretrained weights, no API, no other model.
 | Run folder (all evidence) + ZIP | [20260922T043307_884689Z](experiment1_starter/llm_runs/20260922T043307_884689Z/) · [zip](experiment1_starter/llm_runs/20260922T043307_884689Z.zip) | [20260922T045207_361980Z](experiment2_expanded/llm_runs/20260922T045207_361980Z/) · [zip](experiment2_expanded/llm_runs/20260922T045207_361980Z.zip) |
 | Loss plot / table | [training_curves.svg](experiment1_starter/llm_runs/20260922T043307_884689Z/training_curves.svg) · [training.csv](experiment1_starter/llm_runs/20260922T043307_884689Z/training.csv) | [training_curves.svg](experiment2_expanded/llm_runs/20260922T045207_361980Z/training_curves.svg) · [training.csv](experiment2_expanded/llm_runs/20260922T045207_361980Z/training.csv) |
 | Samples (steps 0 / 1,500 / 3,000) | [samples/](experiment1_starter/llm_runs/20260922T043307_884689Z/samples/) | [samples/](experiment2_expanded/llm_runs/20260922T045207_361980Z/samples/) |
+| Settings and run record | [config.json](experiment1_starter/llm_runs/20260922T043307_884689Z/config.json) · [training_summary.json](experiment1_starter/llm_runs/20260922T043307_884689Z/training_summary.json) | [config.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/config.json) · [training_summary.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/training_summary.json) |
+| Tokenization (vocabulary, example IDs) | [tokenization.json](experiment1_starter/llm_runs/20260922T043307_884689Z/tokenization.json) | [tokenization.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/tokenization.json) |
+| Temperature comparison | [temperature_comparison.json](experiment1_starter/llm_runs/20260922T043307_884689Z/temperature_comparison.json) | [temperature_comparison.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/temperature_comparison.json) |
+| Fixed 48-case eval suite (unchanged, identical fingerprint in both) / runner | [language_evals.json](experiment1_starter/evals/language_evals.json) · [run_evals.py](experiment1_starter/run_evals.py) | [language_evals.json](experiment2_expanded/evals/language_evals.json) · [run_evals.py](experiment2_expanded/run_evals.py) |
 | Inspection (token, embedding, probabilities, gradient, update) | [inspection.json](experiment1_starter/llm_runs/20260922T043307_884689Z/inspection.json) | [inspection.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/inspection.json) |
 | Separation evidence | [eval_separation.json](experiment1_starter/llm_runs/20260922T043307_884689Z/eval_separation.json) | [eval_separation.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/eval_separation.json) · [separation_check_report.txt](experiment2_expanded/separation_check_report.txt) |
 | Corpus manifest / vocabulary report | [corpus_manifest.json](experiment1_starter/llm_runs/20260922T043307_884689Z/corpus_manifest.json) · [vocabulary_report.json](experiment1_starter/llm_runs/20260922T043307_884689Z/vocabulary_report.json) | [corpus_manifest.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/corpus_manifest.json) · [vocabulary_report.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/vocabulary_report.json) |
@@ -203,7 +207,11 @@ Only lang_42's free text actually produces the right idea. For lang_40 and lang_
   A correct choice ≠ fluent text.
 - **Vocabulary coverage:** whether the test can be attempted at all. Unknown words = automatic 0, not a guess.
 
-## Loss and samples (fixed evaluation panels of 20 passages each)
+## Loss and samples
+
+**The losses below are measured on two fixed panels, not the whole corpus:** a training panel and a validation panel, each with at most 20 documents (here exactly 20 each).
+The same panels are used at every check. Each number is the average next-token loss over all non-padding targets in that panel, so these are small estimates, not full-corpus measurements.
+Values come from each run's `history.json` (also in `training.csv`).
 
 | Step | Exp 1 training loss | Exp 1 validation loss | Exp 2 training loss | Exp 2 validation loss |
 |---|---|---|---|---|
@@ -303,7 +311,7 @@ Experiment 2 varied more at 1.2 but stayed inside the templates. Full lists: `te
 
 ## How the model works, traced through my run
 
-These use actual values from Experiment 1 (`experiment1_starter/llm_runs/20260922T043307_884689Z/inspection.json` and `tokenization.json`).
+These use actual values from Experiment 1 ([inspection.json](experiment1_starter/llm_runs/20260922T043307_884689Z/inspection.json) and [tokenization.json](experiment1_starter/llm_runs/20260922T043307_884689Z/tokenization.json)).
 
 - **Corpus:** the study material. Here that's 4,592 unique classroom sentences, of which 4,132 are used for training.
 - **Tokens and IDs:** `the customer` → tokens `<BOS>`, `the`, `customer` → IDs **1, 118, 28**. A training sentence looks like
@@ -320,6 +328,16 @@ These use actual values from Experiment 1 (`experiment1_starter/llm_runs/2026092
 - **Temperature:** the scores are divided by the temperature before becoming percentages. 0.3 sharpens them (the top word almost always wins), 1.2 flattens them (more surprises).
   It only changes how the next word is *picked*. **No weights change:** all three temperature lists come from the same saved model, and the eval runner checks that the model's fingerprint is identical before and after.
 - **Loss, gradients and learning:** see my explanation below. In short, loss measures surprise at the real next word, gradients say which way to nudge each weight, and AdamW applies the nudge, 3,000 times.
+
+## What stayed fixed, what training changed, what changed only at inference
+
+| | What | Where recorded |
+|---|---|---|
+| **Fixed in both experiments** | Model shape (2 layers, 4 heads, 64 numbers per word, 48-token context), seed 42, batch 32, 3,000 steps, learning rate 0.001 with warmup and cosine decay, the 90/10 split rule, the 20+20 loss panels, the 48-case eval suite and its scoring, and the generation settings for samples (temperature 0.8, seed 2026) and evals (temperature 0.8, seed 2026, 24 tokens) | `config.json`, notebook section 1, `eval_summary.json` → `settings` |
+| **Fixed within each experiment, before vs after training** | The same train/validation split, the same panels, the same probe word and prefix, and the same sample seed, so every before/after comparison uses identical inputs | `split.json`, `inspection.json` |
+| **Changed between experiments (on purpose)** | Only the text: Exp 2 adds my 5 files in `corpus/`, which changes the vocabulary (136 → 382 words), the split, and the starting random weights (the table has more rows) | `corpus_manifest.json`, `vocabulary_report.json` |
+| **Changed by training** | Only the weights (111,872 / 127,616 numbers), updated by AdamW from training passages only. Validation passages and eval prompts never produce updates | `model_untrained.pt` vs `model.pt`, `inspection.json` |
+| **Changed only at inference (no weight updates)** | Temperature (0.3 / 0.8 / 1.2), the sampling seed, the prompt, and the output length, in samples, evals, and chat. The eval runner checks that the model fingerprint is identical before and after; chat uses inference mode | `temperature_comparison.json`, `chat_transcript.json` |
 
 ## In my own words
 
