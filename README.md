@@ -21,7 +21,7 @@ No pretrained weights, no API, no other model.
 | Temperature comparison | [temperature_comparison.json](experiment1_starter/llm_runs/20260922T043307_884689Z/temperature_comparison.json) | [temperature_comparison.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/temperature_comparison.json) |
 | Fixed 48-case eval suite (unchanged, identical fingerprint in both) / runner | [language_evals.json](experiment1_starter/evals/language_evals.json) · [run_evals.py](experiment1_starter/run_evals.py) | [language_evals.json](experiment2_expanded/evals/language_evals.json) · [run_evals.py](experiment2_expanded/run_evals.py) |
 | Inspection (token, embedding, probabilities, gradient, update) | [inspection.json](experiment1_starter/llm_runs/20260922T043307_884689Z/inspection.json) | [inspection.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/inspection.json) |
-| Separation evidence | [eval_separation.json](experiment1_starter/llm_runs/20260922T043307_884689Z/eval_separation.json) | [eval_separation.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/eval_separation.json) · [separation_check_report.txt](experiment2_expanded/separation_check_report.txt) |
+| Separation evidence | [eval_separation.json](experiment1_starter/llm_runs/20260922T043307_884689Z/eval_separation.json) | [eval_separation.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/eval_separation.json) · [separation_check_report.txt](experiment2_expanded/separation_check_report.txt) · [leakage_audit_report.txt](experiment2_expanded/leakage_audit_report.txt) |
 | Corpus manifest / vocabulary report | [corpus_manifest.json](experiment1_starter/llm_runs/20260922T043307_884689Z/corpus_manifest.json) · [vocabulary_report.json](experiment1_starter/llm_runs/20260922T043307_884689Z/vocabulary_report.json) | [corpus_manifest.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/corpus_manifest.json) · [vocabulary_report.json](experiment2_expanded/llm_runs/20260922T045207_361980Z/vocabulary_report.json) |
 | Corpus sources | classroom generator (notebook section 3) | same + [corpus/](experiment2_expanded/corpus/) ([how it was made](experiment2_expanded/corpus/README.md)) |
 | Model file (model/run identity) | [model.pt](experiment1_starter/llm_runs/20260922T043307_884689Z/model.pt) · fingerprint `bf49f05b14d5…` | [model.pt](experiment2_expanded/llm_runs/20260922T045207_361980Z/model.pt) · fingerprint `ad812bba1d39…` |
@@ -151,6 +151,12 @@ They are my own sources, required for grading, and contain nothing private.
 - No passage contains a test's last 4 prompt words followed by its answer. (A 3-word version of that check flagged the generic phrase "is to the right", which every left/right example needs. I switched to 4 words, which includes the test's own object, e.g. "box is to the right".)
 - The longest run of words any passage shares with any test prompt is **4**, e.g. "is left of the".
 - The vocabulary is built by the notebook from training passages only; the eval file is never read for training or vocabulary.
+- **Final audit of what the models actually trained on** ([`corpus_tools/audit_training_text.py`](corpus_tools/audit_training_text.py) → [leakage_audit_report.txt](experiment2_expanded/leakage_audit_report.txt)).
+  For both runs it checks the saved `corpus.txt` and training split. **No eval prompt appears anywhere**, and my 908 added passages contain no prompt-ending + answer pairs.
+  No eval free continuation and no chat prompt or reply is a training passage.
+  One thing to know: the **course's classroom generator** contains prompt-ending + answer phrases for the 16 starter/new-wording cases (e.g. "…the service at the store").
+  That's by design: the suite describes those cases as testing "patterns and domain associations taught by the starter", and the notebook reserves only the exact prompts (160 passages).
+  None of the 24 extend-corpus cases are affected, and the overlap is identical in both experiments.
 - **Formatting choice:** the notebook splits passages at "period + space", which would cut a multi-sentence example in half. I wrote internal periods without a space (`green.it is`) so each example stays one passage. The tokens are identical.
 
 **Results:**

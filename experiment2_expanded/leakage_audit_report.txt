@@ -1,0 +1,12 @@
+== experiment1_starter/llm_runs/20260922T043307_884689Z
+  classroom passages (course generator) (6200): eval prompts=none | prompt-ending+answer=['lang_09', 'lang_10', 'lang_11', 'lang_12', 'lang_13', 'lang_14', 'lang_15', 'lang_16', 'lang_17', 'lang_18', 'lang_19', 'lang_20', 'lang_21', 'lang_22', 'lang_23', 'lang_24']
+    note: these are starter/transfer cases; the course generator teaches these associations by design, and the notebook reserves only the exact prompts.
+  MY added passages (0): eval prompts=none | prompt-ending+answer=none
+  eval outputs that are a training passage: none | chat text that is a training passage: none
+== experiment2_expanded/llm_runs/20260922T045207_361980Z
+  classroom passages (course generator) (6200): eval prompts=none | prompt-ending+answer=['lang_09', 'lang_10', 'lang_11', 'lang_12', 'lang_13', 'lang_14', 'lang_15', 'lang_16', 'lang_17', 'lang_18', 'lang_19', 'lang_20', 'lang_21', 'lang_22', 'lang_23', 'lang_24']
+    note: these are starter/transfer cases; the course generator teaches these associations by design, and the notebook reserves only the exact prompts.
+  MY added passages (908): eval prompts=none | prompt-ending+answer=none
+  eval outputs that are a training passage: none | chat text that is a training passage: none
+
+RESULT: PASS: no eval prompts in any training text; no answer keys, eval outputs or chat logs in my added text; classroom overlap limited to starter associations the course teaches by design.
