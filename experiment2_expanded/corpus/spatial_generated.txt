@@ -1,0 +1,420 @@
+the apple is inside the basket.the basket contains the apple.
+the apple is inside the bucket , so the bucket contains the apple .
+the apple is inside the bucket.the bucket contains the apple.
+the apple is inside the cupboard , so the cupboard contains the apple .
+the apple is inside the envelope , so the envelope contains the apple .
+the apple is inside the jar , so the jar contains the apple .
+the apple is inside the jar.the jar contains the apple.
+the apple is inside the pocket.the pocket contains the apple.
+the apple is inside the suitcase.the suitcase contains the apple.
+the basket contains the phone.the phone is inside the basket.
+the basket contains the ring.the ring is inside the basket.
+the basket contains the sock.the sock is inside the basket.
+the basket contains the ticket.the ticket is inside the basket.
+the basket is above the bowl.the bowl is below the basket.
+the basket is above the cat.the cat is below the basket.
+the basket is above the cup.the cup is below the basket.
+the basket is above the pillow , so the pillow is below the basket .
+the basket is below the chair.the chair is above the basket.
+the basket is below the cup.the cup is above the basket.
+the basket is below the phone.the phone is above the basket.
+the basket is left of the clock , so the clock is to the right .
+the basket is left of the dog.the dog is to the right of the basket.
+the basket is left of the table.the table is to the right of the basket.
+the basket is right of the sink.the sink is to the left of the basket.
+the bed is above the picture.the picture is below the bed.
+the bed is above the pillow , so the pillow is below the bed .
+the bed is below the bowl.the bowl is above the bed.
+the bed is below the clock.the clock is above the bed.
+the bed is below the mirror.the mirror is above the bed.
+the bed is beside the bowl.the bowl is beside the bed.
+the bed is beside the chair.the chair is beside the bed.
+the bed is beside the clock.the clock is beside the bed.
+the bed is beside the kettle.the kettle is beside the bed.
+the bed is beside the towel.the towel is beside the bed.
+the bed is left of the kettle.the kettle is to the right of the bed.
+the bed is left of the mirror.the mirror is to the right of the bed.
+the bed is left of the plant.the plant is to the right of the bed.
+the bed is left of the stool.the stool is to the right of the bed.
+the bed is right of the cat.the cat is to the left of the bed.
+the bed is right of the phone.the phone is to the left of the bed.
+the bed is right of the plant.the plant is to the left of the bed.
+the bed is right of the rug.the rug is to the left of the bed.
+the bowl is above the bed.the bed is below the bowl.
+the bowl is above the plant.the plant is below the bowl.
+the bowl is above the plate.the plate is below the bowl.
+the bowl is above the rug.the rug is below the bowl.
+the bowl is above the stool.the stool is below the bowl.
+the bowl is below the cup.the cup is above the bowl.
+the bowl is beside the sofa.the sofa is beside the bowl.
+the bowl is left of the basket.the basket is to the right of the bowl.
+the bowl is left of the sink.the sink is to the right of the bowl.
+the bowl is left of the towel.the towel is to the right of the bowl.
+the bowl is right of the dog.the dog is to the left of the bowl.
+the bowl is right of the rug.the rug is to the left of the bowl.
+the bowl is right of the table.the table is to the left of the bowl.
+the bucket contains the coin.the coin is inside the bucket.
+the bucket contains the spoon.the spoon is inside the bucket.
+the cat is above the rug.the rug is below the cat.
+the cat is above the sink.the sink is below the cat.
+the cat is above the table.the table is below the cat.
+the cat is above the window.the window is below the cat.
+the cat is below the chair.the chair is above the cat.
+the cat is below the rug.the rug is above the cat.
+the cat is beside the stool.the stool is beside the cat.
+the cat is left of the dog.the dog is to the right of the cat.
+the cat is left of the pillow.the pillow is to the right of the cat.
+the cat is left of the plant , so the plant is to the right .
+the cat is left of the plate , so the plate is to the right .
+the cat is left of the sink.the sink is to the right of the cat.
+the cat is left of the table.the table is to the right of the cat.
+the cat is left of the vase.the vase is to the right of the cat.
+the cat is left of the window.the window is to the right of the cat.
+the chair is above the cup , so the cup is below the chair .
+the chair is above the pillow.the pillow is below the chair.
+the chair is above the plant.the plant is below the chair.
+the chair is above the towel.the towel is below the chair.
+the chair is above the window.the window is below the chair.
+the chair is below the kettle.the kettle is above the chair.
+the chair is below the rug.the rug is above the chair.
+the chair is below the towel.the towel is above the chair.
+the chair is beside the bed.the bed is beside the chair.
+the chair is beside the plant.the plant is beside the chair.
+the chair is left of the clock , so the clock is to the right .
+the chair is left of the vase.the vase is to the right of the chair.
+the chair is right of the plant.the plant is to the left of the chair.
+the clock is above the bed.the bed is below the clock.
+the clock is above the mirror.the mirror is below the clock.
+the clock is above the plate.the plate is below the clock.
+the clock is above the sink.the sink is below the clock.
+the clock is above the vase.the vase is below the clock.
+the clock is below the cup.the cup is above the clock.
+the clock is left of the chair.the chair is to the right of the clock.
+the clock is left of the sofa.the sofa is to the right of the clock.
+the clock is left of the vase.the vase is to the right of the clock.
+the clock is left of the window.the window is to the right of the clock.
+the clock is right of the chair.the chair is to the left of the clock.
+the clock is right of the plant.the plant is to the left of the clock.
+the closet contains the key.the key is inside the closet.
+the closet contains the photo.the photo is inside the closet.
+the closet contains the spoon.the spoon is inside the closet.
+the coin is inside the basket.the basket contains the coin.
+the coin is inside the bowl.the bowl contains the coin.
+the coin is inside the bucket , so the bucket contains the coin .
+the coin is inside the fridge , so the fridge contains the coin .
+the coin is inside the jar.the jar contains the coin.
+the cup is above the kettle.the kettle is below the cup.
+the cup is above the plate , so the plate is below the cup .
+the cup is above the rug , so the rug is below the cup .
+the cup is below the picture.the picture is above the cup.
+the cup is beside the pillow.the pillow is beside the cup.
+the cup is inside the bucket.the bucket contains the cup.
+the cup is inside the drawer.the drawer contains the cup.
+the cup is inside the pot , so the pot contains the cup .
+the cup is inside the pot.the pot contains the cup.
+the cup is left of the plant.the plant is to the right of the cup.
+the cup is left of the plate.the plate is to the right of the cup.
+the cup is left of the sink.the sink is to the right of the cup.
+the cup is left of the sofa.the sofa is to the right of the cup.
+the cup is right of the picture.the picture is to the left of the cup.
+the cupboard contains the cup.the cup is inside the cupboard.
+the cupboard contains the spoon.the spoon is inside the cupboard.
+the cupboard contains the ticket.the ticket is inside the cupboard.
+the dog is above the bowl.the bowl is below the dog.
+the dog is above the cup.the cup is below the dog.
+the dog is above the picture.the picture is below the dog.
+the dog is above the pillow.the pillow is below the dog.
+the dog is below the bed.the bed is above the dog.
+the dog is below the kettle.the kettle is above the dog.
+the dog is below the plant.the plant is above the dog.
+the dog is beside the cat.the cat is beside the dog.
+the dog is beside the clock.the clock is beside the dog.
+the dog is left of the kettle.the kettle is to the right of the dog.
+the dog is left of the phone , so the phone is to the right .
+the dog is left of the phone.the phone is to the right of the dog.
+the dog is left of the pillow.the pillow is to the right of the dog.
+the dog is left of the sink.the sink is to the right of the dog.
+the dog is right of the cup.the cup is to the left of the dog.
+the dog is right of the towel.the towel is to the left of the dog.
+the drawer contains the coin.the coin is inside the drawer.
+the drawer contains the ring.the ring is inside the drawer.
+the drawer contains the shell.the shell is inside the drawer.
+the envelope contains the phone.the phone is inside the envelope.
+the fridge contains the apple.the apple is inside the fridge.
+the fridge contains the shell.the shell is inside the fridge.
+the fridge contains the spoon.the spoon is inside the fridge.
+the jar contains the apple.the apple is inside the jar.
+the jar contains the letter.the letter is inside the jar.
+the jar is above the cat.the cat is below the jar.
+the jar is above the kettle , so the kettle is below the jar .
+the jar is above the plate , so the plate is below the jar .
+the jar is below the phone.the phone is above the jar.
+the jar is below the picture.the picture is above the jar.
+the jar is beside the cup.the cup is beside the jar.
+the jar is beside the dog.the dog is beside the jar.
+the jar is beside the plate.the plate is beside the jar.
+the jar is left of the basket.the basket is to the right of the jar.
+the jar is left of the bed.the bed is to the right of the jar.
+the jar is left of the clock , so the clock is to the right .
+the jar is right of the dog.the dog is to the left of the jar.
+the jar is right of the sink.the sink is to the left of the jar.
+the jar is right of the sofa.the sofa is to the left of the jar.
+the kettle is above the bowl.the bowl is below the kettle.
+the kettle is above the cat.the cat is below the kettle.
+the kettle is above the cup.the cup is below the kettle.
+the kettle is above the phone.the phone is below the kettle.
+the kettle is above the vase.the vase is below the kettle.
+the kettle is below the phone.the phone is above the kettle.
+the kettle is below the picture.the picture is above the kettle.
+the kettle is beside the basket.the basket is beside the kettle.
+the kettle is beside the window.the window is beside the kettle.
+the kettle is left of the basket.the basket is to the right of the kettle.
+the kettle is left of the bowl.the bowl is to the right of the kettle.
+the kettle is left of the cat.the cat is to the right of the kettle.
+the kettle is left of the clock.the clock is to the right of the kettle.
+the kettle is left of the dog , so the dog is to the right .
+the kettle is left of the phone.the phone is to the right of the kettle.
+the kettle is left of the window.the window is to the right of the kettle.
+the kettle is right of the cat.the cat is to the left of the kettle.
+the kettle is right of the mirror.the mirror is to the left of the kettle.
+the kettle is right of the plate.the plate is to the left of the kettle.
+the key is inside the bowl , so the bowl contains the key .
+the key is inside the bowl.the bowl contains the key.
+the key is inside the cupboard.the cupboard contains the key.
+the key is inside the fridge.the fridge contains the key.
+the key is inside the pot.the pot contains the key.
+the letter is inside the bowl , so the bowl contains the letter .
+the letter is inside the bucket.the bucket contains the letter.
+the letter is inside the cupboard.the cupboard contains the letter.
+the letter is inside the drawer.the drawer contains the letter.
+the letter is inside the envelope.the envelope contains the letter.
+the letter is inside the fridge , so the fridge contains the letter .
+the letter is inside the fridge.the fridge contains the letter.
+the letter is inside the pot.the pot contains the letter.
+the letter is inside the suitcase.the suitcase contains the letter.
+the mirror is above the phone.the phone is below the mirror.
+the mirror is above the sofa.the sofa is below the mirror.
+the mirror is below the bowl.the bowl is above the mirror.
+the mirror is below the sink.the sink is above the mirror.
+the mirror is beside the table.the table is beside the mirror.
+the mirror is left of the sink , so the sink is to the right .
+the mirror is left of the table.the table is to the right of the mirror.
+the note is inside the closet.the closet contains the note.
+the note is inside the envelope.the envelope contains the note.
+the note is inside the jar.the jar contains the note.
+the note is inside the pocket.the pocket contains the note.
+the phone is above the bed , so the bed is below the phone .
+the phone is above the bowl , so the bowl is below the phone .
+the phone is above the plant , so the plant is below the phone .
+the phone is above the vase.the vase is below the phone.
+the phone is below the cup.the cup is above the phone.
+the phone is below the mirror.the mirror is above the phone.
+the phone is below the vase.the vase is above the phone.
+the phone is below the window.the window is above the phone.
+the phone is beside the kettle.the kettle is beside the phone.
+the phone is beside the vase.the vase is beside the phone.
+the phone is inside the bowl.the bowl contains the phone.
+the phone is inside the bucket.the bucket contains the phone.
+the phone is inside the closet , so the closet contains the phone .
+the phone is inside the closet.the closet contains the phone.
+the phone is inside the cupboard.the cupboard contains the phone.
+the phone is inside the pocket.the pocket contains the phone.
+the phone is left of the bed.the bed is to the right of the phone.
+the phone is left of the clock , so the clock is to the right .
+the phone is left of the rug , so the rug is to the right .
+the phone is left of the window.the window is to the right of the phone.
+the phone is right of the table.the table is to the left of the phone.
+the photo is inside the basket.the basket contains the photo.
+the photo is inside the bucket.the bucket contains the photo.
+the photo is inside the closet.the closet contains the photo.
+the photo is inside the pot.the pot contains the photo.
+the picture is above the table.the table is below the picture.
+the picture is beside the clock.the clock is beside the picture.
+the picture is left of the pillow , so the pillow is to the right .
+the picture is left of the plate.the plate is to the right of the picture.
+the picture is left of the window.the window is to the right of the picture.
+the picture is right of the chair.the chair is to the left of the picture.
+the picture is right of the clock.the clock is to the left of the picture.
+the pillow is above the clock , so the clock is below the pillow .
+the pillow is above the clock.the clock is below the pillow.
+the pillow is above the dog.the dog is below the pillow.
+the pillow is above the stool.the stool is below the pillow.
+the pillow is above the towel.the towel is below the pillow.
+the pillow is below the cat.the cat is above the pillow.
+the pillow is below the picture.the picture is above the pillow.
+the pillow is beside the cat.the cat is beside the pillow.
+the pillow is beside the clock.the clock is beside the pillow.
+the pillow is beside the kettle.the kettle is beside the pillow.
+the pillow is beside the phone.the phone is beside the pillow.
+the pillow is left of the phone , so the phone is to the right .
+the pillow is right of the bed.the bed is to the left of the pillow.
+the plant is above the bowl.the bowl is below the plant.
+the plant is above the cat.the cat is below the plant.
+the plant is above the clock.the clock is below the plant.
+the plant is above the cup.the cup is below the plant.
+the plant is above the picture.the picture is below the plant.
+the plant is above the vase , so the vase is below the plant .
+the plant is below the jar.the jar is above the plant.
+the plant is beside the stool.the stool is beside the plant.
+the plant is left of the cup.the cup is to the right of the plant.
+the plant is right of the mirror.the mirror is to the left of the plant.
+the plate is above the mirror.the mirror is below the plate.
+the plate is above the stool.the stool is below the plate.
+the plate is below the chair.the chair is above the plate.
+the plate is beside the dog.the dog is beside the plate.
+the plate is left of the basket.the basket is to the right of the plate.
+the plate is left of the chair.the chair is to the right of the plate.
+the plate is left of the jar.the jar is to the right of the plate.
+the plate is left of the table.the table is to the right of the plate.
+the plate is left of the window.the window is to the right of the plate.
+the plate is right of the jar.the jar is to the left of the plate.
+the plate is right of the stool.the stool is to the left of the plate.
+the pocket contains the phone.the phone is inside the pocket.
+the pot contains the key.the key is inside the pot.
+the pot contains the letter.the letter is inside the pot.
+the pot contains the ring.the ring is inside the pot.
+the pot contains the spoon.the spoon is inside the pot.
+the pot contains the ticket.the ticket is inside the pot.
+the ring is inside the basket.the basket contains the ring.
+the ring is inside the bowl , so the bowl contains the ring .
+the ring is inside the closet.the closet contains the ring.
+the ring is inside the drawer.the drawer contains the ring.
+the ring is inside the fridge , so the fridge contains the ring .
+the ring is inside the fridge.the fridge contains the ring.
+the ring is inside the pocket.the pocket contains the ring.
+the ring is inside the pot.the pot contains the ring.
+the rug is above the pillow.the pillow is below the rug.
+the rug is above the sink , so the sink is below the rug .
+the rug is above the sink.the sink is below the rug.
+the rug is below the basket.the basket is above the rug.
+the rug is below the table.the table is above the rug.
+the rug is beside the chair.the chair is beside the rug.
+the rug is beside the pillow.the pillow is beside the rug.
+the rug is beside the plate.the plate is beside the rug.
+the rug is left of the cat.the cat is to the right of the rug.
+the rug is left of the plant.the plant is to the right of the rug.
+the rug is right of the phone.the phone is to the left of the rug.
+the rug is right of the pillow.the pillow is to the left of the rug.
+the shell is inside the bowl , so the bowl contains the shell .
+the shell is inside the drawer.the drawer contains the shell.
+the shell is inside the jar , so the jar contains the shell .
+the shell is inside the jar.the jar contains the shell.
+the shell is inside the pocket , so the pocket contains the shell .
+the shell is inside the pocket.the pocket contains the shell.
+the shell is inside the suitcase.the suitcase contains the shell.
+the sink is above the bed.the bed is below the sink.
+the sink is above the bowl.the bowl is below the sink.
+the sink is above the plate , so the plate is below the sink .
+the sink is below the clock.the clock is above the sink.
+the sink is below the mirror.the mirror is above the sink.
+the sink is beside the dog.the dog is beside the sink.
+the sink is beside the jar.the jar is beside the sink.
+the sink is beside the kettle.the kettle is beside the sink.
+the sink is left of the picture.the picture is to the right of the sink.
+the sink is left of the window , so the window is to the right .
+the sink is right of the jar.the jar is to the left of the sink.
+the sink is right of the plant.the plant is to the left of the sink.
+the sink is right of the window.the window is to the left of the sink.
+the sock is inside the bucket.the bucket contains the sock.
+the sock is inside the cupboard.the cupboard contains the sock.
+the sock is inside the drawer , so the drawer contains the sock .
+the sock is inside the envelope , so the envelope contains the sock .
+the sock is inside the envelope.the envelope contains the sock.
+the sock is inside the fridge.the fridge contains the sock.
+the sock is inside the jar.the jar contains the sock.
+the sock is inside the pocket.the pocket contains the sock.
+the sofa is above the dog , so the dog is below the sofa .
+the sofa is above the picture , so the picture is below the sofa .
+the sofa is above the table.the table is below the sofa.
+the sofa is above the window , so the window is below the sofa .
+the sofa is below the pillow.the pillow is above the sofa.
+the sofa is beside the bowl.the bowl is beside the sofa.
+the sofa is left of the jar.the jar is to the right of the sofa.
+the sofa is left of the phone.the phone is to the right of the sofa.
+the sofa is left of the sink.the sink is to the right of the sofa.
+the sofa is right of the jar.the jar is to the left of the sofa.
+the sofa is right of the mirror.the mirror is to the left of the sofa.
+the sofa is right of the pillow.the pillow is to the left of the sofa.
+the spoon is inside the bucket , so the bucket contains the spoon .
+the spoon is inside the bucket.the bucket contains the spoon.
+the spoon is inside the closet.the closet contains the spoon.
+the spoon is inside the cupboard , so the cupboard contains the spoon .
+the spoon is inside the cupboard.the cupboard contains the spoon.
+the spoon is inside the envelope.the envelope contains the spoon.
+the stool is above the mirror , so the mirror is below the stool .
+the stool is above the phone.the phone is below the stool.
+the stool is above the pillow.the pillow is below the stool.
+the stool is above the plant , so the plant is below the stool .
+the stool is above the plate , so the plate is below the stool .
+the stool is beside the clock.the clock is beside the stool.
+the stool is beside the jar.the jar is beside the stool.
+the stool is beside the plate.the plate is beside the stool.
+the stool is left of the bed.the bed is to the right of the stool.
+the stool is left of the mirror.the mirror is to the right of the stool.
+the stool is left of the picture.the picture is to the right of the stool.
+the stool is left of the sofa.the sofa is to the right of the stool.
+the stool is left of the window.the window is to the right of the stool.
+the stool is right of the phone.the phone is to the left of the stool.
+the stool is right of the plate.the plate is to the left of the stool.
+the stool is right of the towel.the towel is to the left of the stool.
+the suitcase contains the sock.the sock is inside the suitcase.
+the table is above the sofa , so the sofa is below the table .
+the table is below the bowl.the bowl is above the table.
+the table is below the clock.the clock is above the table.
+the table is below the rug.the rug is above the table.
+the table is below the stool.the stool is above the table.
+the table is beside the mirror.the mirror is beside the table.
+the table is left of the picture.the picture is to the right of the table.
+the table is left of the sofa.the sofa is to the right of the table.
+the table is left of the window.the window is to the right of the table.
+the table is right of the stool.the stool is to the left of the table.
+the ticket is inside the basket.the basket contains the ticket.
+the ticket is inside the bowl.the bowl contains the ticket.
+the ticket is inside the drawer.the drawer contains the ticket.
+the ticket is inside the fridge.the fridge contains the ticket.
+the ticket is inside the pocket.the pocket contains the ticket.
+the towel is above the jar.the jar is below the towel.
+the towel is above the plate , so the plate is below the towel .
+the towel is above the plate.the plate is below the towel.
+the towel is above the table.the table is below the towel.
+the towel is below the basket.the basket is above the towel.
+the towel is below the cup.the cup is above the towel.
+the towel is left of the sink.the sink is to the right of the towel.
+the towel is left of the vase , so the vase is to the right .
+the towel is right of the bed.the bed is to the left of the towel.
+the towel is right of the mirror.the mirror is to the left of the towel.
+the towel is right of the rug.the rug is to the left of the towel.
+the toy is inside the basket , so the basket contains the toy .
+the toy is inside the basket.the basket contains the toy.
+the toy is inside the bucket , so the bucket contains the toy .
+the toy is inside the envelope.the envelope contains the toy.
+the toy is inside the fridge.the fridge contains the toy.
+the vase is above the kettle.the kettle is below the vase.
+the vase is above the plant.the plant is below the vase.
+the vase is above the plate , so the plate is below the vase .
+the vase is above the window.the window is below the vase.
+the vase is below the clock.the clock is above the vase.
+the vase is below the plant.the plant is above the vase.
+the vase is below the rug.the rug is above the vase.
+the vase is beside the chair.the chair is beside the vase.
+the vase is beside the picture.the picture is beside the vase.
+the vase is left of the bowl , so the bowl is to the right .
+the vase is left of the cup.the cup is to the right of the vase.
+the vase is left of the kettle.the kettle is to the right of the vase.
+the vase is left of the plant.the plant is to the right of the vase.
+the vase is right of the basket.the basket is to the left of the vase.
+the vase is right of the cup.the cup is to the left of the vase.
+the vase is right of the kettle.the kettle is to the left of the vase.
+the vase is right of the phone.the phone is to the left of the vase.
+the window is above the kettle.the kettle is below the window.
+the window is above the picture.the picture is below the window.
+the window is above the sink.the sink is below the window.
+the window is above the stool.the stool is below the window.
+the window is above the vase , so the vase is below the window .
+the window is below the basket.the basket is above the window.
+the window is below the vase.the vase is above the window.
+the window is beside the basket.the basket is beside the window.
+the window is left of the basket.the basket is to the right of the window.
+the window is left of the rug , so the rug is to the right .
+the window is left of the sink.the sink is to the right of the window.
+the window is left of the table , so the table is to the right .

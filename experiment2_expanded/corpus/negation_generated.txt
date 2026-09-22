@@ -1,0 +1,420 @@
+ben chose coffee , not eggs.ben chose coffee.
+ben cooked honey , not butter.ben cooked honey.
+ben cooked pasta , not apples.ben cooked pasta.
+ben did not buy butter.he bought honey.ben bought honey.
+ben did not buy butter.he bought soup.ben bought soup.
+ben did not buy honey.he bought apples.ben bought apples.
+ben did not choose juice.he chose cheese.ben chose cheese.
+ben did not cook cake.he cooked yogurt.ben cooked yogurt.
+ben did not cook soup.he cooked honey.ben cooked honey.
+ben did not eat butter.he ate coffee.ben ate coffee.
+ben did not eat soup.he ate juice.ben ate juice.
+ben did not order beans.he ordered coffee.ben ordered coffee.
+ben did not order butter.he ordered beans.ben ordered beans.
+ben did not order butter.he ordered cake.ben ordered cake.
+ben did not order coffee.he ordered apples.ben ordered apples.
+ben packed pasta , not cheese.ben packed pasta.
+ben packed soup , not beans.ben packed soup.
+ben packed yogurt , not pasta.ben packed yogurt.
+ivy ate butter , not soup.ivy ate butter.
+ivy ate honey , not juice.ivy ate honey.
+ivy cooked eggs , not soup.ivy cooked eggs.
+ivy cooked honey , not yogurt.ivy cooked honey.
+ivy cooked pasta , not cake.ivy cooked pasta.
+ivy did not buy yogurt.she bought cake.ivy bought cake.
+ivy did not buy yogurt.she bought cheese.ivy bought cheese.
+ivy did not buy yogurt.she bought honey.ivy bought honey.
+ivy did not choose cheese.she chose cake.ivy chose cake.
+ivy did not choose coffee.she chose eggs.ivy chose eggs.
+ivy did not cook apples.she cooked soup.ivy cooked soup.
+ivy did not cook cheese.she cooked honey.ivy cooked honey.
+ivy did not cook cheese.she cooked soup.ivy cooked soup.
+ivy did not cook juice.she cooked yogurt.ivy cooked yogurt.
+ivy did not cook pasta.she cooked cheese.ivy cooked cheese.
+ivy did not cook yogurt.she cooked soup.ivy cooked soup.
+ivy did not eat cheese.she ate beans.ivy ate beans.
+ivy did not eat eggs.she ate coffee.ivy ate coffee.
+ivy did not eat yogurt.she ate beans.ivy ate beans.
+ivy did not pack apples.she packed pasta.ivy packed pasta.
+ivy did not pack pasta.she packed eggs.ivy packed eggs.
+ivy did not pack soup.she packed yogurt.ivy packed yogurt.
+ivy did not pack yogurt.she packed eggs.ivy packed eggs.
+ivy packed soup , not juice.ivy packed soup.
+jack ate coffee , not cake.jack ate coffee.
+jack ate yogurt , not coffee.jack ate yogurt.
+jack bought cake , not eggs.jack bought cake.
+jack bought soup , not butter.jack bought soup.
+jack chose eggs , not cheese.jack chose eggs.
+jack cooked butter , not juice.jack cooked butter.
+jack cooked cake , not soup.jack cooked cake.
+jack did not buy apples.he bought butter.jack bought butter.
+jack did not buy butter.he bought coffee.jack bought coffee.
+jack did not choose apples.he chose cheese.jack chose cheese.
+jack did not choose juice.he chose eggs.jack chose eggs.
+jack did not choose yogurt.he chose apples.jack chose apples.
+jack did not choose yogurt.he chose juice.jack chose juice.
+jack did not cook butter.he cooked yogurt.jack cooked yogurt.
+jack did not cook coffee.he cooked apples.jack cooked apples.
+jack did not cook honey.he cooked coffee.jack cooked coffee.
+jack did not eat coffee.he ate soup.jack ate soup.
+jack did not eat soup.he ate butter.jack ate butter.
+jack did not order cake.he ordered eggs.jack ordered eggs.
+jack did not order honey.he ordered pasta.jack ordered pasta.
+jack did not order soup.he ordered coffee.jack ordered coffee.
+jack did not order yogurt.he ordered cheese.jack ordered cheese.
+jack did not pack butter.he packed juice.jack packed juice.
+jack did not pack cake.he packed juice.jack packed juice.
+jack did not pack coffee.he packed beans.jack packed beans.
+jack packed cheese , not butter.jack packed cheese.
+lily ate coffee , not pasta.lily ate coffee.
+lily ate eggs , not juice.lily ate eggs.
+lily ate pasta , not juice.lily ate pasta.
+lily bought cake , not juice.lily bought cake.
+lily bought soup , not cake.lily bought soup.
+lily bought yogurt , not juice.lily bought yogurt.
+lily cooked juice , not cake.lily cooked juice.
+lily did not buy soup.she bought beans.lily bought beans.
+lily did not choose cheese.she chose coffee.lily chose coffee.
+lily did not choose coffee.she chose apples.lily chose apples.
+lily did not choose coffee.she chose soup.lily chose soup.
+lily did not eat apples.she ate juice.lily ate juice.
+lily did not eat cheese.she ate yogurt.lily ate yogurt.
+lily did not order juice.she ordered eggs.lily ordered eggs.
+lily did not order soup.she ordered honey.lily ordered honey.
+lily did not pack beans.she packed cheese.lily packed cheese.
+lily did not pack beans.she packed yogurt.lily packed yogurt.
+lily did not pack cheese.she packed yogurt.lily packed yogurt.
+lily ordered yogurt , not juice.lily ordered yogurt.
+max ate cheese , not honey.max ate cheese.
+max cooked beans , not cake.max cooked beans.
+max did not choose honey.he chose butter.max chose butter.
+max did not choose juice.he chose apples.max chose apples.
+max did not choose juice.he chose honey.max chose honey.
+max did not choose soup.he chose apples.max chose apples.
+max did not cook cheese.he cooked juice.max cooked juice.
+max did not eat beans.he ate coffee.max ate coffee.
+max did not eat butter.he ate soup.max ate soup.
+max did not eat honey.he ate butter.max ate butter.
+max did not order butter.he ordered beans.max ordered beans.
+max did not order pasta.he ordered cake.max ordered cake.
+max did not pack honey.he packed apples.max packed apples.
+max ordered beans , not yogurt.max ordered beans.
+max ordered butter , not beans.max ordered butter.
+max ordered juice , not eggs.max ordered juice.
+mia ate apples , not cake.mia ate apples.
+mia bought eggs , not butter.mia bought eggs.
+mia bought honey , not coffee.mia bought honey.
+mia chose cake , not butter.mia chose cake.
+mia chose coffee , not juice.mia chose coffee.
+mia chose juice , not cheese.mia chose juice.
+mia cooked cake , not eggs.mia cooked cake.
+mia did not buy yogurt.she bought coffee.mia bought coffee.
+mia did not choose butter.she chose eggs.mia chose eggs.
+mia did not choose cheese.she chose eggs.mia chose eggs.
+mia did not choose pasta.she chose cake.mia chose cake.
+mia did not choose soup.she chose yogurt.mia chose yogurt.
+mia did not cook juice.she cooked eggs.mia cooked eggs.
+mia did not cook soup.she cooked eggs.mia cooked eggs.
+mia did not eat coffee.she ate pasta.mia ate pasta.
+mia did not eat pasta.she ate honey.mia ate honey.
+mia did not order beans.she ordered pasta.mia ordered pasta.
+mia did not pack apples.she packed honey.mia packed honey.
+mia did not pack butter.she packed cake.mia packed cake.
+mia did not pack coffee.she packed beans.mia packed beans.
+mia ordered pasta , not coffee.mia ordered pasta.
+mia packed cake , not yogurt.mia packed cake.
+mia packed cheese , not coffee.mia packed cheese.
+ruby ate butter , not yogurt.ruby ate butter.
+ruby ate juice , not soup.ruby ate juice.
+ruby chose coffee , not soup.ruby chose coffee.
+ruby did not buy butter.she bought cake.ruby bought cake.
+ruby did not buy butter.she bought coffee.ruby bought coffee.
+ruby did not buy pasta.she bought eggs.ruby bought eggs.
+ruby did not choose butter.she chose honey.ruby chose honey.
+ruby did not choose yogurt.she chose coffee.ruby chose coffee.
+ruby did not choose yogurt.she chose soup.ruby chose soup.
+ruby did not cook cheese.she cooked eggs.ruby cooked eggs.
+ruby did not cook eggs.she cooked yogurt.ruby cooked yogurt.
+ruby did not eat beans.she ate cake.ruby ate cake.
+ruby did not eat eggs.she ate coffee.ruby ate coffee.
+ruby did not order beans.she ordered apples.ruby ordered apples.
+ruby did not order pasta.she ordered cheese.ruby ordered cheese.
+ruby did not pack cake.she packed honey.ruby packed honey.
+ruby did not pack eggs.she packed honey.ruby packed honey.
+ruby did not pack soup.she packed honey.ruby packed honey.
+ruby ordered eggs , not honey.ruby ordered eggs.
+ruby packed pasta , not juice.ruby packed pasta.
+sam bought soup , not apples.sam bought soup.
+sam cooked honey , not apples.sam cooked honey.
+sam did not buy cheese.he bought beans.sam bought beans.
+sam did not buy coffee.he bought cake.sam bought cake.
+sam did not buy pasta.he bought coffee.sam bought coffee.
+sam did not choose cheese.he chose juice.sam chose juice.
+sam did not choose eggs.he chose pasta.sam chose pasta.
+sam did not cook beans.he cooked pasta.sam cooked pasta.
+sam did not cook yogurt.he cooked juice.sam cooked juice.
+sam did not eat butter.he ate coffee.sam ate coffee.
+sam did not eat honey.he ate juice.sam ate juice.
+sam did not pack butter.he packed eggs.sam packed eggs.
+sam did not pack cheese.he packed eggs.sam packed eggs.
+sam did not pack soup.he packed honey.sam packed honey.
+sam packed yogurt , not cheese.sam packed yogurt.
+the bike is not brown.it is black.the bike is black.
+the bike is not brown.it is purple.the bike is purple.
+the bike is not gold , it is gray .
+the bike is not pink , it is black .
+the bike is not pink.it is gray.the bike is gray.
+the bike is not silver.it is pink.the bike is pink.
+the bike is not white.it is pink.the bike is pink.
+the bike was not black.it was purple.so the bike was purple.
+the bike was not pink.it was gold.so the bike was gold.
+the blanket is not black.it is silver.the blanket is silver.
+the blanket is not gray , it is white .
+the blanket is not gray.it is silver.the blanket is silver.
+the blanket is not pink.it is black.the blanket is black.
+the blanket is not pink.it is gold.the blanket is gold.
+the blanket is not silver.it is gold.the blanket is gold.
+the blanket was not gray.it was white.so the blanket was white.
+the boat is not black.it is gray.the boat is gray.
+the boat is not brown.it is purple.the boat is purple.
+the boat is not purple.it is pink.the boat is pink.
+the boat is not silver.it is black.the boat is black.
+the boat is not white.it is gold.the boat is gold.
+the boat was not brown.it was gray.so the boat was gray.
+the bottle is not brown , it is purple .
+the bottle is not gold , it is pink .
+the bottle is not white.it is silver.the bottle is silver.
+the bottle was not gray.it was gold.so the bottle was gold.
+the bottle was not gray.it was white.so the bottle was white.
+the car is not black.it is gray.the car is gray.
+the car is not brown , it is gold .
+the car is not brown.it is black.the car is black.
+the car is not brown.it is silver.the car is silver.
+the car is not gray.it is gold.the car is gold.
+the car is not purple , it is black .
+the car is not purple.it is pink.the car is pink.
+the car is not white.it is gold.the car is gold.
+the car was not brown.it was purple.so the car was purple.
+the car was not gold.it was pink.so the car was pink.
+the car was not pink.it was gray.so the car was gray.
+the chair is not gold.it is brown.the chair is brown.
+the chair is not gold.it is purple.the chair is purple.
+the chair is not silver , it is gold .
+the chair is not silver.it is gray.the chair is gray.
+the chair was not pink.it was brown.so the chair was brown.
+the coat is not black , it is white .
+the coat is not black.it is pink.the coat is pink.
+the coat is not brown.it is gold.the coat is gold.
+the coat is not gray.it is pink.the coat is pink.
+the coat is not purple.it is gray.the coat is gray.
+the coat is not silver , it is pink .
+the coat was not purple.it was brown.so the coat was brown.
+the coat was not silver.it was gold.so the coat was gold.
+the coat was not silver.it was white.so the coat was white.
+the cup is not brown.it is purple.the cup is purple.
+the cup is not gold.it is brown.the cup is brown.
+the cup is not gray.it is pink.the cup is pink.
+the cup is not pink , it is gold .
+the cup is not purple.it is pink.the cup is pink.
+the cup is not silver.it is black.the cup is black.
+the cup was not gold.it was gray.so the cup was gray.
+the drawer is locked , not stuck.the drawer is locked.
+the drawer is locked , not tidy.the drawer is locked.
+the drawer is messy , not locked.the drawer is messy.
+the drawer is messy , not tidy.the drawer is messy.
+the drawer is not locked.it is messy.the drawer is messy.
+the drawer is not locked.it is stuck.the drawer is stuck.
+the drawer is not locked.it is tidy.the drawer is tidy.
+the drawer is not messy.it is tidy.the drawer is tidy.
+the drawer is not stuck.it is locked.the drawer is locked.
+the drawer is not stuck.it is messy.the drawer is messy.
+the drawer is not tidy.it is locked.the drawer is locked.
+the drawer is not tidy.it is messy.the drawer is messy.
+the drawer is not tidy.it is stuck.the drawer is stuck.
+the drawer is stuck , not messy.the drawer is stuck.
+the fence is not black.it is pink.the fence is pink.
+the fence is not black.it is white.the fence is white.
+the fence is not brown.it is gold.the fence is gold.
+the fence is not gold.it is silver.the fence is silver.
+the fence is not pink , it is gold .
+the fence is not pink.it is gold.the fence is gold.
+the fence is not white.it is purple.the fence is purple.
+the flower is not black.it is gold.the flower is gold.
+the flower is not brown.it is pink.the flower is pink.
+the flower is not gold , it is pink .
+the flower is not gold.it is white.the flower is white.
+the flower is not pink.it is gray.the flower is gray.
+the flower is not pink.it is purple.the flower is purple.
+the flower is not purple , it is gray .
+the flower is not purple.it is silver.the flower is silver.
+the flower is not silver.it is brown.the flower is brown.
+the flower is not silver.it is white.the flower is white.
+the flower is not white , it is gray .
+the gate is broken , not unlocked.the gate is broken.
+the gate is locked , not broken.the gate is locked.
+the gate is locked , not unlocked.the gate is locked.
+the gate is not broken.it is unlocked.the gate is unlocked.
+the gate is not locked.it is unlocked.the gate is unlocked.
+the gate is not painted.it is broken.the gate is broken.
+the gate is not painted.it is locked.the gate is locked.
+the gate is not unlocked.it is locked.the gate is locked.
+the gate is not unlocked.it is painted.the gate is painted.
+the gate is painted , not broken.the gate is painted.
+the gate is unlocked , not broken.the gate is unlocked.
+the hat is not brown.it is gold.the hat is gold.
+the hat is not gold , it is gray .
+the hat is not gold.it is silver.the hat is silver.
+the hat is not gray.it is white.the hat is white.
+the hat is not purple.it is black.the hat is black.
+the hat is not purple.it is pink.the hat is pink.
+the hat is not silver , it is black .
+the hat is not silver.it is brown.the hat is brown.
+the hat is not white.it is pink.the hat is pink.
+the hat was not black.it was gold.so the hat was gold.
+the hat was not gray.it was brown.so the hat was brown.
+the hat was not gray.it was white.so the hat was white.
+the hat was not pink.it was brown.so the hat was brown.
+the hat was not white.it was gray.so the hat was gray.
+the kite is not black , it is pink .
+the kite is not black.it is white.the kite is white.
+the kite is not gold.it is purple.the kite is purple.
+the kite is not gray.it is black.the kite is black.
+the kite is not pink.it is black.the kite is black.
+the kite is not pink.it is white.the kite is white.
+the kite is not purple.it is brown.the kite is brown.
+the kite is not silver , it is gold .
+the kite is not white , it is gold .
+the kite is not white.it is pink.the kite is pink.
+the pen is not gold , it is brown .
+the pen is not gray , it is pink .
+the pen is not gray.it is brown.the pen is brown.
+the pen is not gray.it is gold.the pen is gold.
+the pen is not gray.it is purple.the pen is purple.
+the pen is not purple.it is black.the pen is black.
+the pen is not silver.it is purple.the pen is purple.
+the pen was not gray.it was black.so the pen was black.
+the plate is not black.it is gray.the plate is gray.
+the plate is not gray.it is purple.the plate is purple.
+the plate is not silver.it is black.the plate is black.
+the plate is not white , it is purple .
+the plate is not white.it is gold.the plate is gold.
+the road is bumpy , not busy.the road is bumpy.
+the road is bumpy , not calm.the road is bumpy.
+the road is busy , not bumpy.the road is busy.
+the road is busy , not icy.the road is busy.
+the road is calm , not bumpy.the road is calm.
+the road is icy , not busy.the road is icy.
+the road is icy , not calm.the road is icy.
+the road is not bumpy.it is calm.the road is calm.
+the road is not bumpy.it is icy.the road is icy.
+the road is not busy.it is bumpy.the road is bumpy.
+the road is not busy.it is calm.the road is calm.
+the road is not busy.it is icy.the road is icy.
+the road is not calm.it is bumpy.the road is bumpy.
+the road is not calm.it is busy.the road is busy.
+the road is not icy.it is bumpy.the road is bumpy.
+the road is not icy.it is busy.the road is busy.
+the room is bright , not cozy.the room is bright.
+the room is cozy , not tidy.the room is cozy.
+the room is messy , not cozy.the room is messy.
+the room is messy , not tidy.the room is messy.
+the room is not bright.it is cozy.the room is cozy.
+the room is not bright.it is tidy.the room is tidy.
+the room is not cozy.it is bright.the room is bright.
+the room is not messy.it is bright.the room is bright.
+the room is not messy.it is cozy.the room is cozy.
+the room is not tidy.it is cozy.the room is cozy.
+the room is tidy , not messy.the room is tidy.
+the shirt is not black.it is purple.the shirt is purple.
+the shirt is not black.it is silver.the shirt is silver.
+the shirt is not gold.it is black.the shirt is black.
+the shirt is not gold.it is pink.the shirt is pink.
+the shirt is not purple.it is brown.the shirt is brown.
+the shirt is not silver.it is brown.the shirt is brown.
+the shirt is not white.it is gold.the shirt is gold.
+the shirt was not gold.it was gray.so the shirt was gray.
+the sofa is not gold , it is brown .
+the sofa is not pink , it is black .
+the sofa is not pink , it is brown .
+the sofa is not white.it is black.the sofa is black.
+the sofa is not white.it is brown.the sofa is brown.
+the sofa was not brown.it was silver.so the sofa was silver.
+the sofa was not gold.it was brown.so the sofa was brown.
+the sofa was not gold.it was silver.so the sofa was silver.
+the sofa was not silver.it was purple.so the sofa was purple.
+the tap is dripping , not rusty.the tap is dripping.
+the tap is fixed , not rusty.the tap is fixed.
+the tap is not broken.it is dripping.the tap is dripping.
+the tap is not broken.it is fixed.the tap is fixed.
+the tap is not broken.it is rusty.the tap is rusty.
+the tap is not dripping.it is rusty.the tap is rusty.
+the tap is not fixed.it is broken.the tap is broken.
+the tap is not fixed.it is dripping.the tap is dripping.
+the tap is not fixed.it is rusty.the tap is rusty.
+the tap is not rusty.it is broken.the tap is broken.
+the tap is not rusty.it is dripping.the tap is dripping.
+the tap is not rusty.it is fixed.the tap is fixed.
+the tap is rusty , not dripping.the tap is rusty.
+the towel is not brown.it is silver.the towel is silver.
+the towel is not gold.it is black.the towel is black.
+the towel is not gray , it is brown .
+the towel is not gray.it is purple.the towel is purple.
+the towel is not purple.it is pink.the towel is pink.
+the towel is not silver.it is brown.the towel is brown.
+the towel is not silver.it is gold.the towel is gold.
+the towel is not silver.it is white.the towel is white.
+the towel is not white.it is pink.the towel is pink.
+the towel was not pink.it was gold.so the towel was gold.
+the towel was not silver.it was white.so the towel was white.
+the towel was not white.it was purple.so the towel was purple.
+the wall is not black , it is pink .
+the wall is not black , it is silver .
+the wall is not brown.it is pink.the wall is pink.
+the wall is not silver.it is gray.the wall is gray.
+the wall was not silver.it was gold.so the wall was gold.
+the window is clean , not foggy.the window is clean.
+the window is dirty , not clean.the window is dirty.
+the window is foggy , not clean.the window is foggy.
+the window is foggy , not cracked.the window is foggy.
+the window is foggy , not dirty.the window is foggy.
+the window is not clean.it is foggy.the window is foggy.
+the window is not foggy.it is clean.the window is clean.
+the window is not foggy.it is cracked.the window is cracked.
+the window is not foggy.it is dirty.the window is dirty.
+theo chose cheese , not eggs.theo chose cheese.
+theo chose coffee , not yogurt.theo chose coffee.
+theo did not buy pasta.he bought eggs.theo bought eggs.
+theo did not buy yogurt.he bought beans.theo bought beans.
+theo did not choose cake.he chose coffee.theo chose coffee.
+theo did not choose honey.he chose juice.theo chose juice.
+theo did not cook apples.he cooked soup.theo cooked soup.
+theo did not eat yogurt.he ate beans.theo ate beans.
+theo did not order cake.he ordered beans.theo ordered beans.
+theo did not order cake.he ordered soup.theo ordered soup.
+theo did not order honey.he ordered eggs.theo ordered eggs.
+theo did not pack honey.he packed eggs.theo packed eggs.
+theo ordered butter , not coffee.theo ordered butter.
+theo ordered soup , not beans.theo ordered soup.
+theo packed butter , not coffee.theo packed butter.
+theo packed coffee , not apples.theo packed coffee.
+theo packed eggs , not honey.theo packed eggs.
+zoe ate yogurt , not apples.zoe ate yogurt.
+zoe bought cheese , not apples.zoe bought cheese.
+zoe chose coffee , not eggs.zoe chose coffee.
+zoe chose coffee , not yogurt.zoe chose coffee.
+zoe cooked cake , not coffee.zoe cooked cake.
+zoe cooked pasta , not cake.zoe cooked pasta.
+zoe did not buy coffee.she bought soup.zoe bought soup.
+zoe did not buy yogurt.she bought butter.zoe bought butter.
+zoe did not choose apples.she chose yogurt.zoe chose yogurt.
+zoe did not choose cake.she chose soup.zoe chose soup.
+zoe did not choose eggs.she chose beans.zoe chose beans.
+zoe did not choose yogurt.she chose juice.zoe chose juice.
+zoe did not cook eggs.she cooked soup.zoe cooked soup.
+zoe did not cook soup.she cooked apples.zoe cooked apples.
+zoe did not eat yogurt.she ate honey.zoe ate honey.
+zoe did not order cake.she ordered soup.zoe ordered soup.
+zoe did not order coffee.she ordered honey.zoe ordered honey.
+zoe did not order juice.she ordered soup.zoe ordered soup.
+zoe did not pack cake.she packed pasta.zoe packed pasta.
+zoe did not pack soup.she packed pasta.zoe packed pasta.

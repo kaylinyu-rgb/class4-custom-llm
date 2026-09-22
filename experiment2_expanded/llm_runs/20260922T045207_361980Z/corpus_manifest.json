@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "file": "negation_generated.txt",
+      "bytes": 22292,
+      "sha256": "7e77c55d8671c8c9cc9b26de2573cdd89421e918d1d59e56e8e7cb88830652c0",
+      "warnings": [],
+      "characters": 22292,
+      "passages": 420,
+      "unique_passages": 420,
+      "preview": "ben chose coffee , not eggs.ben chose coffee.\nben cooked honey , not butter.ben cooked honey.\nben cooked pasta , not apples.ben cooked pasta.\nben did not buy butter.he bought honey.ben bought honey.\nben did not buy butter.he bought soup.ben bought soup.\nben did not buy honey.he bought apples.ben bou"
+    },
+    {
+      "file": "negation_handwritten.md",
+      "bytes": 1710,
+      "sha256": "c571504f627c31b3ca8d0f6288aeb423ab99ff7e8a968af43b966709a2069f2f",
+      "warnings": [],
+      "characters": 1710,
+      "passages": 25,
+      "unique_passages": 25,
+      "preview": "the sign said the shop sold hats.it did not sell hats.the shop sold shoes.\nmia thought the soup was cold.it was not cold.the soup was warm.\nthe paint on the fence is not white anymore.it is gray now.the fence is gray.\nsam did not take the bus to work.he rode his bike.sam rode his bike.\nthe kite is n"
+    },
+    {
+      "file": "neutral_vocabulary.txt",
+      "bytes": 911,
+      "sha256": "7c5737a24c39df296965872e31393b099c1bab968901320a3615f4dc5e174205",
+      "warnings": [],
+      "characters": 911,
+      "passages": 23,
+      "unique_passages": 23,
+      "preview": "a student carried a heavy book to the school .\nthe professor wrote a new book about learning .\nthe shopper packed a bag for the journey .\nthe office bought a new desk for the team .\nthe lamp in the office was bright .\na ball rolled across the station .\nthe delivery arrived in a large box .\nthe kitch"
+    },
+    {
+      "file": "spatial_generated.txt",
+      "bytes": 26286,
+      "sha256": "48abd892228728b073f5a1f6f4755af9ecb51907f4e26fb78c251761db6d13e2",
+      "warnings": [],
+      "characters": 26286,
+      "passages": 420,
+      "unique_passages": 420,
+      "preview": "the apple is inside the basket.the basket contains the apple.\nthe apple is inside the bucket , so the bucket contains the apple .\nthe apple is inside the bucket.the bucket contains the apple.\nthe apple is inside the cupboard , so the cupboard contains the apple .\nthe apple is inside the envelope , s"
+    },
+    {
+      "file": "spatial_handwritten.md",
+      "bytes": 1294,
+      "sha256": "b9b45ff3907d47f973fcce11827e923752ab4fd28ca70a128d25209fba1ef343",
+      "warnings": [],
+      "characters": 1294,
+      "passages": 20,
+      "unique_passages": 20,
+      "preview": "the clock hangs above the sofa.the sofa is below the clock.\nin the kitchen the kettle is left of the fridge.the fridge is to the right of the kettle.\nmy keys are inside my pocket.my pocket contains my keys.\nthe cat sleeps below the table.the table is above the cat.\nthe photo is inside the envelope.t"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 908,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 5499,
+  "new_unique_passages": 907,
+  "duplicates_removed": 1609,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

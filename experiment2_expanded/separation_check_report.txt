@@ -1,0 +1,11 @@
+Passages checked: 908 from 5 files
+Longest shared word runs with a test prompt (top 5):
+  4 words | lang_42 | spatial_handwritten.md: the vase is left of the clock . the clock is to the right of the vase .
+  4 words | lang_42 | spatial_handwritten.md: the rug is left of the bed . the bed is to the right of the rug .
+  4 words | lang_42 | spatial_handwritten.md: in the kitchen the kettle is left of the fridge . the fridge is to the right of the kettle .
+  4 words | lang_42 | spatial_generated.txt: the window is left of the table , so the table is to the right .
+  4 words | lang_42 | spatial_generated.txt: the window is left of the sink . the sink is to the right of the window .
+Passage-test pairs sharing >=4 consecutive words: {4: 87}
+Word/punctuation types in teaching text: 297
+
+OK: no test prompts, no prompt-ending+answer sequences, no forbidden pairs/objects.

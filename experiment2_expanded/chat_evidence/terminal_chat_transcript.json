@@ -1,0 +1,44 @@
+{
+  "model": "llm_runs/20260922T045207_361980Z/model.pt",
+  "model_sha256": "ad812bba1d39ceab00bf20cacd13ba01cc8fbc266b9775c809e6ae7bb91f18fa",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the plant is above the sofa . the sofa is",
+      "seed": 2026,
+      "response": "below the plant .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the coat is not pink . it is purple . the coat is",
+      "seed": 2027,
+      "response": "purple .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "what is your favorite food ?",
+      "seed": 2028,
+      "response": ".",
+      "unknown_prompt_words": [
+        "?",
+        "favorite",
+        "food",
+        "what",
+        "your"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "our kitchen has a question about the",
+      "seed": 2029,
+      "response": "new orange and fruit .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}
