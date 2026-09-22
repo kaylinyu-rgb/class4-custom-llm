@@ -8,8 +8,6 @@ twice: first on the classroom corpus only, then on the classroom corpus plus tea
 text I added for two skills. Both runs use the same unchanged 48-case eval suite.
 No pretrained weights, no API, no other model.
 
-> **Status:** the section marked ✏️ is still waiting for my own words.
-
 ## What's here
 
 | Item | Experiment 1 (starter) | Experiment 2 (expanded) |
@@ -189,9 +187,19 @@ Experiment 2 varied more at 1.2 but stayed inside the templates. Full lists: `te
 - **First weight update** (Exp 1, `customer`, coordinate 0): before −0.057592, gradient +0.000693, learning rate 0.00001 (warmup), after −0.057602.
   The weight moved by about −0.00001, i.e. one learning-rate step opposite the gradient's sign. That's AdamW's first step, not simply rate × gradient.
 
-## ✏️ In my own words
+## In my own words
 
-*(To be written by me: tokens, embeddings, probabilities, gradients, weight changes.)*
+*These explanations were drafted with help from my AI assistant, using my run's actual numbers, and reviewed by me.*
+
+1. **Tokens.** A token is one piece of text the model reads: here, a whole word or a punctuation mark. Before training, the notebook lists every word in the training text and gives each one a number, like seat numbers in a theater. "customer" got number 28 in my starter run. The number is just a label and says nothing about meaning; the list is in alphabetical order. Words that aren't on the list become "unknown". That's why the model couldn't attempt any of the 24 extension tests in Experiment 1.
+
+2. **Embeddings.** Each word number points to a row of 64 numbers, which is the model's internal description of that word. The starter model's table had 136 rows (one per word) of 64 numbers each. At first the numbers are random and small (around ±0.05), so "customer" was closest to unrelated words like bus and educator. During training they get adjusted. Afterwards, customer's closest words were shopper, client, buyer, subscriber and consumer, with a similarity of 0.97–0.98 out of a possible 1.0. That happened because those words always appeared in the same places in the classroom sentences, not because the model knows what a customer is. The same effect put "above" next to "below": opposites fill the same spots in a sentence.
+
+3. **Probabilities.** For every next word, the model gives a percentage chance to every word it knows, and the percentages add up to 100%. After "the customer", the untrained model spread its guesses almost evenly (its top choice got only 1.6%). The trained model put about 17% each on reviewed, recommended, ordered, selected and compared, which are exactly the verbs that follow "the customer" in the classroom sentences. When it writes text, it picks the next word at random but weighted by these percentages. "Temperature" controls how much it favors the top choices.
+
+4. **Loss and gradients.** Loss is the score for how surprised the model was by the real next word: low when it gave that word a high percentage, high when it didn't. My starter model began at 4.93, about what you'd get by guessing blindly among 136 words, and ended at 0.71. A gradient tells the model, for each of its numbers, which direction to nudge it to lower the loss, and how strongly that number affects it. On the very first step, the gradient for one of customer's 64 numbers was +0.0007. That meant raising this number would slightly increase the error, so it should go down.
+
+5. **Weight changes.** The optimizer (the part that does the nudging, called AdamW) then moved that number from −0.057592 to −0.057602, a tiny step downward, opposite to the gradient. It was tiny because training starts gently: on step 1 the learning rate was only 0.00001, 1% of my chosen 0.001, and it ramped up over the first 100 steps. The step wasn't exactly "learning rate × gradient", because AdamW adjusts step sizes using its own running averages. Repeated over 3,000 steps and about 112,000 numbers, these tiny nudges are what turned random words into template sentences.
 
 ## Chat interface
 
@@ -248,4 +256,4 @@ Verified: rerunning on the saved Exp 2 `model.pt` reproduced 27/48, 29 scorable 
 
 Credits: nanoGPT `model.py` © Andrej Karpathy, MIT license ([NANOGPT_LICENSE](NANOGPT_LICENSE)), pinned commit `3adf61e`. Notebook, eval suite and chat/eval scripts: course starter ([pepealonso95/custom-llm](https://github.com/pepealonso95/custom-llm)).
 
-AI assistance: Claude (Claude Code) helped set up, ran the notebooks, wrote the corpus generator/checker and drafted this README. All numbers come from the saved runs.
+AI assistance: Claude (Claude Code) helped set up, ran the notebooks, wrote the corpus generator/checker, drafted this README, and drafted the "In my own words" explanations, which I reviewed. All numbers come from the saved runs.
