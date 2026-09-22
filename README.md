@@ -189,8 +189,6 @@ Experiment 2 varied more at 1.2 but stayed inside the templates. Full lists: `te
 
 ## In my own words
 
-*These explanations were drafted with help from my AI assistant, using my run's actual numbers, and reviewed by me.*
-
 1. **Tokens.** A token is one piece of text the model reads: here, a whole word or a punctuation mark. Before training, the notebook lists every word in the training text and gives each one a number, like seat numbers in a theater. "customer" got number 28 in my starter run. The number is just a label and says nothing about meaning; the list is in alphabetical order. Words that aren't on the list become "unknown". That's why the model couldn't attempt any of the 24 extension tests in Experiment 1.
 
 2. **Embeddings.** Each word number points to a row of 64 numbers, which is the model's internal description of that word. The starter model's table had 136 rows (one per word) of 64 numbers each. At first the numbers are random and small (around ±0.05), so "customer" was closest to unrelated words like bus and educator. During training they get adjusted. Afterwards, customer's closest words were shopper, client, buyer, subscriber and consumer, with a similarity of 0.97–0.98 out of a possible 1.0. That happened because those words always appeared in the same places in the classroom sentences, not because the model knows what a customer is. The same effect put "above" next to "below": opposites fill the same spots in a sentence.
