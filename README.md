@@ -67,7 +67,10 @@ If it's too small, each step barely moves the numbers, so 3,000 steps may end be
 A step is one update from 32 sampled passages, not a full pass through the corpus: 3,000 steps × 32 ≈ 96,000 passage views, or roughly 20× the 4,132 (Exp 1) / 4,949 (Exp 2) training passages.
 
 **How it was run.** Instead of Colab, I ran the same notebook locally in Jupyter ("Run All" via `jupyter nbconvert --execute`), with the teaching files in `corpus/` beside the notebook.
-I did **not** do a separate 10-step setup run. The first full run served as the setup check, since it completed in about 15 seconds.
+**10-step setup check** ([setup_check_10_steps/](setup_check_10_steps/custom_llm.ipynb), run afterwards in a separate folder, starter corpus, same seed).
+Everything ran with no errors. Validation loss went 4.928 → 4.323 (step 5) → 4.207 (step 10). The 48 evals stayed at 9/48 before and after (24 scorable),
+and the samples were still mostly random words. So 10 steps confirms the pipeline works but teaches almost nothing, compared with 0.706 and 20/48 after 3,000 steps.
+(I ran this check after the main experiments rather than before; it doesn't affect the four required result sets.)
 My predictions were written into each notebook **before** training (section "My prediction").
 
 ## Experiment 1 — starter corpus
