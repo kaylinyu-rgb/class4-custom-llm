@@ -57,6 +57,8 @@ continuation), `eval_summary.json` and `eval_cases.json`. Separation evidence fo
 | Setting | Value | Why |
 |---|---|---|
 | Model | nanoGPT, 2 layers, 4 attention heads, 64-number embeddings, 48-token context | fixed by the notebook |
+| Tokenizer | whole words and punctuation marks (not characters or sub-words), lowercased; vocabulary built from training passages only | the course's teaching choice |
+| Compute | CPU only; no API key, no pretrained weights, no GPU | |
 | Parameters | 111,872 (Exp 1, 136-word vocab) · 127,616 (Exp 2, 382-word vocab) | the embedding table grows with the vocabulary |
 | Training steps | 3,000 | the notebook's recommended main experiment |
 | Learning rate | 0.001 (100-step warmup, cosine decay to 10%) | recommended default |
@@ -327,6 +329,14 @@ These use actual values from Experiment 1 ([inspection.json](experiment1_starter
   until it draws the end marker or hits the limit (32 tokens for samples, 24 in chat).
 - **Temperature:** the scores are divided by the temperature before becoming percentages. 0.3 sharpens them (the top word almost always wins), 1.2 flattens them (more surprises).
   It only changes how the next word is *picked*. **No weights change:** all three temperature lists come from the same saved model, and the eval runner checks that the model's fingerprint is identical before and after.
+- **Neural network:** the stack that turns the tokens so far into next-word scores: embeddings → 2 transformer blocks (attention + feed-forward layers) → output scores.
+  Its behavior is entirely set by its weights; the code and shape never change during training.
+- **Held-out (validation) data:** 10% of unique passages (460 in Exp 1, 550 in Exp 2) are set aside *before* the vocabulary is built, and they never produce a weight update.
+  Their loss shows whether the model does well on sentences it didn't train on, not just ones it memorized. Exp 1's held-out loss fell almost as far as its training loss (0.706 vs 0.678).
+  But held-out passages come from the same templates, so this checks "new fill-ins of familiar templates", not new kinds of sentences. The eval's new-wording cases (4/8) show the model is much weaker there.
+- **How they connect, in one chain:** token `customer` → ID 28 → row 28 of the embedding table (64 numbers) → attention and feed-forward layers mix it with earlier words (`the`) →
+  scores → probabilities for the next word → loss = surprise at the real next word → backpropagation gives a gradient for every weight (+0.000693 for customer's first number on step 1) →
+  AdamW moves each weight a small step against its gradient (−0.057592 → −0.057602) → the next prediction is slightly better. After 3,000 rounds: 17.8% on `reviewed` instead of a near-flat 1.6% top guess.
 - **Loss, gradients and learning:** see my explanation below. In short, loss measures surprise at the real next word, gradients say which way to nudge each weight, and AdamW applies the nudge, 3,000 times.
 
 ## What stayed fixed, what training changed, what changed only at inference
